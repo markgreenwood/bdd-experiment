@@ -1,0 +1,70 @@
+[
+  {
+    "description": "  As an internet user\n  In order to find out more about the itunes vote cards app\n  I want to be able to search for information about the itunes vote cards app",
+    "elements": [
+      {
+        "id": "searching-for-vote-cards-app;google-search-for-vote-cards-app",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Google search for vote cards app",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have loaded Google",
+            "result": {
+              "status": "passed",
+              "duration": 2504781769
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/mark.greenwood/Documents/Projects/bdd-experiment/step-definitions/google-search-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search Google for \"Cucumber.js\"",
+            "result": {
+              "status": "passed",
+              "duration": 1887066683
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/mark.greenwood/Documents/Projects/bdd-experiment/step-definitions/google-search-steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The first result is \"GitHub - cucumber/cucumber-js: Cucumber for JavaScript\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 118649039
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/mark.greenwood/Documents/Projects/bdd-experiment/node_modules/selenium-cucumber-js/runtime/world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "searching-for-vote-cards-app",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Searching for vote cards app",
+    "tags": [],
+    "uri": "/Users/mark.greenwood/Documents/Projects/bdd-experiment/features/google-search.feature"
+  }
+]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="searching-for-vote-cards-app;google-search-for-vote-cards-app" tests="3" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="/Users/mark.greenwood/Documents/Projects/bdd-experiment/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I have loaded Google" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="2.504781769">
+        </testcase>
+        <testcase name="When I search Google for &quot;Cucumber.js&quot;" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="1.887066683">
+        </testcase>
+        <testcase name="Then The first result is &quot;GitHub - cucumber/cucumber-js: Cucumber for JavaScript&quot;" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
