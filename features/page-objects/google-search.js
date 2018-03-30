@@ -1,8 +1,11 @@
+/* eslint-disable import/no-extraneous-dependencies */
+const { By } = require('selenium-webdriver');
+
 module.exports = {
   url: 'https://www.google.com',
   elements: {
-    searchInput: by.name('q'),
-    searchResultLink: by.css('div.g > h3 > a')
+    searchInput: By.name('q'),
+    searchResultLink: By.css('div.g > h3 > a')
   },
   /**
    * enters a search term into Google's search box and presses enter

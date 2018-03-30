@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cucumber": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions"
+    "cucumber": "cucumber-js ./features -r ./step-definitions"
   },
   "author": "",
   "license": "",
@@ -15,6 +15,6 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.9.0",
-    "selenium-cucumber-js": "^1.5.12"
+    "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
